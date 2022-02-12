@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* Nav - bar */
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.navbar-links {
+  height: 100%;
+  padding-right: 15px;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-right: 16px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-links li a {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
+.navbar-links li a:after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-links li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hamburger {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Main Section */
+
+/* Landing picture */
+.home-picture {
+  width: 100%;
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 25%;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Header 2  */
+.header2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Exhibit box */
+.highlight-exhibits {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.exhibit-box {
+  background-color: #fbfbfb;
+  width: 520px;
+  height: 530px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.exhibit-box p {
+  padding: 10px;
+}
+
+.exhibit-box h3 {
+  padding: 10px;
+}
+/* Footer */
+
+footer {
+  padding-top: 100px;
+}
+.content-container {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
