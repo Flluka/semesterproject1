@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -110,25 +112,63 @@ body {
 }
 
 /* Exhibit box */
-.highlight-exhibits {
+.exhibit-container {
   display: grid;
+  max-width: 1300px;
+  margin: 50px auto;
+  grid-gap: 70px;
   grid-template-columns: repeat(3, auto);
 }
-.exhibit-box {
+.exhibits {
   background-color: #fbfbfb;
-  width: 520px;
-  height: 530px;
-  margin: auto;
+  padding-bottom: 20px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
-.exhibit-box p {
-  padding: 10px;
+.exhibits p,
+h3,
+a {
+  padding-left: 10px;
 }
 
-.exhibit-box h3 {
-  padding: 10px;
+.cta {
+  background-color: #00f510;
+  color: #000000;
+  font-size: 1em;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  text-align: center;
 }
+
+.exhibits a:hover {
+  background-color: #0089fa;
+  color: #fff;
+}
+
+.robotics {
+  margin-top: 10px;
+  margin-left: 11px;
+  padding-top: 65px;
+}
+
+.ecology {
+  margin-top: 10px;
+  padding-top: 25px;
+  margin-left: 11px;
+}
+
+.cosmology {
+  margin-top: 10px;
+  padding-top: 45px;
+  margin-left: 11px;
+}
+
+.exhibits img {
+  width: 100%;
+  height: 220px;
+}
+
 /* Footer */
 
 footer {

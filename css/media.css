@@ -43,7 +43,7 @@
     text-align: center;
   }
 
-  .highlight-exhibits {
-    grid-template-columns: repeat(1, auto);
+  .exhibit-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
