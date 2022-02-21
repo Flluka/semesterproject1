@@ -118,6 +118,10 @@ body {
   margin-top: 25px;
 }
 
+.h3 {
+  font-size: 32px;
+}
+
 /* Exhibit box */
 .exhibit-container {
   display: grid;
@@ -174,6 +178,47 @@ a {
 .exhibits img {
   width: 100%;
   height: 220px;
+}
+
+/* Explore
+--------------------------------- */
+.explore-container {
+  display: grid;
+  max-width: 1300px;
+  margin: 50px auto;
+  grid-gap: 70px;
+  grid-template-columns: repeat(1, auto);
+}
+.kids {
+  background-color: #9a00db;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  color: white;
+}
+
+.kids,
+img {
+  float: left;
+  margin-right: 15px;
+}
+
+.teachers {
+  background-color: #00f510;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  color: black;
+}
+
+.researchers {
+  background-color: #0089fa;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  color: white;
+}
+
+.text-area {
+  margin-top: 15px;
+}
+
+.text-area h3 {
+  font-size: 32px;
 }
 
 /* Footer Section
