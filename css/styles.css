@@ -87,10 +87,16 @@ body {
   border-radius: 10px;
 }
 
-/* Main Section */
+/* Main Section
+--------------------------------- */
 
 /* Landing picture */
 .home-picture {
+  width: 100%;
+  position: relative;
+}
+
+.event-picture {
   width: 100%;
   position: relative;
 }
@@ -109,6 +115,7 @@ body {
 .header2 {
   text-align: center;
   text-decoration: underline;
+  margin-top: 25px;
 }
 
 /* Exhibit box */
@@ -169,14 +176,33 @@ a {
   height: 220px;
 }
 
-/* Footer */
-
+/* Footer Section
+--------------------------------- */
 footer {
   padding-top: 100px;
 }
-.content-container {
+
+.footer-container {
   background-color: #000000;
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-left: 50px;
+}
+
+.content-container h4 {
+  text-decoration: underline;
+}
+
+.opening-hours li,
+.social li {
+  list-style: none;
+}
+
+.content-container i {
+  padding-right: 5px;
 }

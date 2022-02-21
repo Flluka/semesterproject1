@@ -34,6 +34,10 @@
     width: 100%;
   }
 
+  .event-picture img {
+    width: 100%;
+  }
+
   .text-block {
     font-size: 10px;
   }
@@ -45,5 +49,13 @@
 
   .exhibit-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content-container {
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
+  }
+  .contact p {
+    font-size: 12px;
   }
 }
