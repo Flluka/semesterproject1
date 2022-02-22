@@ -87,7 +87,7 @@ body {
   border-radius: 10px;
 }
 
-/* Main Section
+/* Landing Page
 --------------------------------- */
 
 /* Landing picture */
@@ -111,11 +111,11 @@ body {
   padding-right: 20px;
 }
 
-/* Header 2  */
-.header2 {
+/* Header */
+h2 {
   text-align: center;
   text-decoration: underline;
-  margin-top: 25px;
+  padding-top: 15px;
 }
 
 .h3 {
@@ -135,9 +135,12 @@ body {
   padding-bottom: 20px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-.exhibits p,
-h3,
-a {
+.exhibits h3 {
+  padding-left: 10px;
+}
+
+.exhibit-container p,
+.involved-container p {
   padding-left: 10px;
 }
 
@@ -195,8 +198,7 @@ a {
   color: white;
 }
 
-.kids,
-img {
+.kids img {
   float: left;
   margin-right: 15px;
 }
@@ -219,6 +221,66 @@ img {
 
 .text-area h3 {
   font-size: 32px;
+}
+
+/* Get Involved
+--------------------------------- */
+.involved-container {
+  display: grid;
+  max-width: 1300px;
+  margin: 50px auto;
+  grid-gap: 70px;
+  grid-template-columns: repeat(1, auto);
+}
+.support,
+.volunteer,
+.internship {
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  color: black;
+  padding-bottom: 10%;
+  padding-top: 15px;
+}
+
+.involved-container h3 {
+  padding-left: 10px;
+}
+
+/* Get Involved
+--------------------------------- */
+
+.visit-container {
+  display: grid;
+  max-width: 1300px;
+  margin: 50px auto;
+  grid-gap: 70px;
+  grid-template-columns: repeat(3, auto);
+}
+
+.visit-box {
+  background-color: #fbfbfb;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.visit-box li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.visit-box h3 {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.visit-box p {
+  padding-left: 10px;
+}
+
+.visit-box i {
+  display: flex;
+  text-align: center;
+
+  font-size: 70px;
 }
 
 /* Footer Section

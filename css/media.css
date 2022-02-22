@@ -38,6 +38,14 @@
     width: 100%;
   }
 
+  .visit-picture img {
+    width: 100%;
+  }
+
+  .visit-box img {
+    width: 100%;
+  }
+
   .text-block {
     font-size: 10px;
   }
@@ -47,7 +55,9 @@
     text-align: center;
   }
 
-  .exhibit-container {
+  .exhibit-container,
+  .explore-container,
+  .visit-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
