@@ -46,6 +46,11 @@
     width: 100%;
   }
 
+  .visit-box {
+    width: auto;
+    height: auto;
+  }
+
   .text-block {
     font-size: 10px;
   }
@@ -75,5 +80,9 @@
 
   .text-area p {
     margin: 10px;
+  }
+
+  .involved_image {
+    display: none;
   }
 }

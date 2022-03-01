@@ -183,6 +183,22 @@ h2 {
   height: 220px;
 }
 
+.bottom_p_robotics {
+  padding-top: 31%;
+}
+
+.bottom_p_cosmo {
+  padding-top: 21px;
+}
+
+.bottom_p_eco {
+  padding-top: 22px;
+}
+
+.bottom_p_evo {
+  padding-top: 40px;
+}
+
 /* Explore
 --------------------------------- */
 .explore-container {
@@ -199,6 +215,16 @@ h2 {
 }
 
 .kids img {
+  float: left;
+  margin-right: 15px;
+}
+
+.teachers img {
+  float: left;
+  margin-right: 15px;
+}
+
+.researchers img {
   float: left;
   margin-right: 15px;
 }
@@ -240,13 +266,22 @@ h2 {
   color: black;
   padding-bottom: 10%;
   padding-top: 15px;
+  height: 450px;
 }
 
 .involved-container h3 {
   padding-left: 10px;
 }
 
-/* Get Involved
+.involved_image {
+  float: left;
+}
+
+.involved-container p {
+  padding-left: 15px;
+}
+
+/* Visit Us
 --------------------------------- */
 
 .visit-container {
@@ -260,6 +295,8 @@ h2 {
 .visit-box {
   background-color: #fbfbfb;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  width: 410px;
+  height: 338px;
 }
 
 .visit-box li {
@@ -279,8 +316,28 @@ h2 {
 .visit-box i {
   display: flex;
   text-align: center;
-
   font-size: 70px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Icon positioning */
+.fa-wheelchair {
+  padding-top: 50px;
+}
+.fa-business-time {
+  padding-top: 70px;
+}
+.fa-ticket {
+  padding-top: 13px;
+}
+.fa-mug-saucer {
+  padding-top: 154px;
+}
+.fa-store {
+  padding-top: 110px;
 }
 
 /* Footer Section
