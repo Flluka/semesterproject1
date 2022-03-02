@@ -11,6 +11,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 /* Nav - bar */
 .navbar {
   display: flex;
@@ -183,12 +184,13 @@ h2 {
   height: 220px;
 }
 
+/* This had to be done for each of the divs because of the different height of the text above */
 .bottom_p_robotics {
   padding-top: 31%;
 }
 
 .bottom_p_cosmo {
-  padding-top: 21px;
+  padding-top: 42px;
 }
 
 .bottom_p_eco {
@@ -243,6 +245,7 @@ h2 {
 
 .text-area {
   margin-top: 15px;
+  max-width: 1200px;
 }
 
 .text-area h3 {
@@ -253,7 +256,7 @@ h2 {
 --------------------------------- */
 .involved-container {
   display: grid;
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 50px auto;
   grid-gap: 70px;
   grid-template-columns: repeat(1, auto);
@@ -279,6 +282,10 @@ h2 {
 
 .involved-container p {
   padding-left: 15px;
+}
+
+.text-area-involved {
+  max-width: 1000px;
 }
 
 /* Visit Us
