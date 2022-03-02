@@ -68,6 +68,7 @@
   .explore-container,
   .visit-container {
     grid-template-columns: repeat(1, 1fr);
+    margin: 50px 20px 50px 20px;
   }
 
   .content-container {
@@ -100,5 +101,10 @@
 
   .text-area-involved {
     margin: 10px;
+  }
+
+  .exhibits {
+    max-width: 800px;
+    margin: auto;
   }
 }

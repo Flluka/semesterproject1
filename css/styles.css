@@ -123,7 +123,7 @@ h2 {
   font-size: 32px;
 }
 
-/* Exhibit box */
+/* Exhibit box /Events */
 .exhibit-container {
   display: grid;
   max-width: 1300px;
@@ -182,6 +182,11 @@ h2 {
 .exhibits img {
   width: 100%;
   height: 220px;
+}
+
+.home-picture img,
+.event-picture img {
+  width: 100%;
 }
 
 /* This had to be done for each of the divs because of the different height of the text above */
@@ -328,6 +333,10 @@ h2 {
 .icons {
   display: flex;
   justify-content: center;
+}
+
+.visit-picture img {
+  width: 100%;
 }
 
 /* Icon positioning */
