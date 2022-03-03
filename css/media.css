@@ -1,4 +1,5 @@
 @media (max-width: 800px) {
+  /* Navbar */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -30,6 +31,8 @@
     display: flex;
   }
 
+  /* Picture Section */
+
   .home-picture img {
     width: 100%;
   }
@@ -50,10 +53,27 @@
     width: 100%;
   }
 
+  .explore-container img {
+    display: none;
+  }
+
+  .involved_image {
+    display: none;
+  }
+
+  /* Box */
+
   .visit-box {
     width: auto;
     height: auto;
   }
+
+  .exhibits {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  /* Headers and text */
 
   .text-block {
     font-size: 10px;
@@ -64,35 +84,12 @@
     text-align: center;
   }
 
-  .exhibit-container,
-  .explore-container,
-  .visit-container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 50px 20px 50px 20px;
-  }
-
-  .content-container {
-    grid-template-columns: repeat(1, auto);
-    gap: 20px;
-  }
-  .contact p {
-    font-size: 12px;
-  }
-
-  .explore-container img {
-    display: none;
-  }
-
   .text-area p {
     margin: 10px;
   }
 
   .explore-container h3 {
     padding-left: 12px;
-  }
-
-  .involved_image {
-    display: none;
   }
 
   .involved-container h3 {
@@ -103,8 +100,24 @@
     margin: 10px;
   }
 
-  .exhibits {
-    max-width: 800px;
-    margin: auto;
+  .contact p {
+    font-size: 12px;
+  }
+
+  .icons {
+    width: 100%;
+  }
+
+  /* Containers */
+  .exhibit-container,
+  .explore-container,
+  .visit-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px 20px 50px 20px;
+  }
+
+  .content-container {
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
   }
 }

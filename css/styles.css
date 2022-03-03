@@ -307,7 +307,7 @@ h2 {
 .visit-box {
   background-color: #fbfbfb;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-  width: 410px;
+  width: auto;
   height: 338px;
 }
 
