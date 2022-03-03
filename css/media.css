@@ -41,15 +41,9 @@
     padding-left: 22px;
   }
 
+  .visit-picture img,
+  .visit-box img,
   .event-picture img {
-    width: 100%;
-  }
-
-  .visit-picture img {
-    width: 100%;
-  }
-
-  .visit-box img {
     width: 100%;
   }
 
@@ -88,11 +82,11 @@
     margin: 10px;
   }
 
-  .explore-container h3 {
+  .explore-container h2 {
     padding-left: 12px;
   }
 
-  .involved-container h3 {
+  .involved-container h2 {
     padding-left: 15px;
   }
 

@@ -307,7 +307,7 @@ body {
   background-color: #fbfbfb;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
   width: auto;
-  height: 338px;
+  height: auto;
 }
 
 .visit-box li {
@@ -338,23 +338,27 @@ body {
   width: 100%;
 }
 
+.visit-box img {
+  width: 100%;
+}
+
 /* Icon positioning */
 .fa-wheelchair {
   padding-top: 50px;
 }
 .fa-business-time {
-  padding-top: 70px;
+  padding-top: 85px;
 }
 .fa-ticket {
-  padding-top: 13px;
+  padding-top: 28px;
 }
 .fa-mug-saucer {
   padding-top: 154px;
 }
 .fa-store {
   padding-top: 110px;
+  padding-bottom: 20px;
 }
-
 /* Footer Section
 --------------------------------- */
 footer {
