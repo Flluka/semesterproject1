@@ -107,20 +107,27 @@ body {
   top: 25%;
   left: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 38px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 /* Header */
-h2 {
+.header1 h1 {
   text-align: center;
   text-decoration: underline;
   padding-top: 15px;
+  font-size: 38px;
+}
+.header2 h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 15px;
+  font-size: 31;
 }
 
-.h3 {
-  font-size: 32px;
+.h2 {
+  font-size: 31px;
 }
 
 /* Exhibit box /Events */
@@ -135,6 +142,10 @@ h2 {
   background-color: #fbfbfb;
   padding-bottom: 20px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.exhibits h2 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .exhibits h3 {
   padding-left: 10px;
@@ -221,17 +232,9 @@ h2 {
   color: white;
 }
 
-.kids img {
-  float: left;
-  margin-right: 15px;
-}
-
+.kids img,
+.researchers img,
 .teachers img {
-  float: left;
-  margin-right: 15px;
-}
-
-.researchers img {
   float: left;
   margin-right: 15px;
 }
@@ -245,7 +248,7 @@ h2 {
 .researchers {
   background-color: #0089fa;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-  color: white;
+  color: black;
 }
 
 .text-area {
@@ -253,15 +256,15 @@ h2 {
   max-width: 1200px;
 }
 
-.text-area h3 {
-  font-size: 32px;
+.text-area h2 {
+  font-size: 31px;
 }
 
 /* Get Involved
 --------------------------------- */
 .involved-container {
   display: grid;
-  max-width: 1100px;
+  max-width: 850px;
   margin: 50px auto;
   grid-gap: 70px;
   grid-template-columns: repeat(1, auto);
@@ -277,10 +280,6 @@ h2 {
   height: 450px;
 }
 
-.involved-container h3 {
-  padding-left: 10px;
-}
-
 .involved_image {
   float: left;
 }
@@ -290,7 +289,7 @@ h2 {
 }
 
 .text-area-involved {
-  max-width: 1000px;
+  max-width: 800px;
 }
 
 /* Visit Us
@@ -316,7 +315,7 @@ h2 {
   padding-left: 10px;
 }
 
-.visit-box h3 {
+.visit-box h2 {
   padding-left: 10px;
   padding-top: 5px;
 }
@@ -374,10 +373,6 @@ footer {
   margin-left: 50px;
 }
 
-.content-container h4 {
-  text-decoration: underline;
-}
-
 .opening-hours li,
 .social li {
   list-style: none;
@@ -385,4 +380,9 @@ footer {
 
 .content-container i {
   padding-right: 5px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: inherit;
 }
