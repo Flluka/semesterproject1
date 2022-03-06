@@ -325,15 +325,12 @@ body {
 }
 
 .visit-box i {
-  display: flex;
-  text-align: center;
   font-size: 70px;
 }
 .icons {
   display: flex;
   justify-content: center;
 }
-
 .visit-picture img {
   width: 100%;
 }
